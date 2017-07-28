@@ -1,6 +1,7 @@
 function sleepIn(weekday, vacation) {
-  if (weekday === false || vacation === true) {
-    return true;
+  // По условию `weekday` и `vacation` уже булевы значения
+  if (weekday === false || vacation === true) { // можно без ифа
+    return true; // и без этого ретурна
   }
-return false;
+return false; // и без этого
 }
